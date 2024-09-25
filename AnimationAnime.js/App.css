@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter",sans-serif;
+  font-optical-sizing: auto;
+}
+body{
+  min-height: 100vh;
+  background: #222;
+}
+
+header{
+  position: fixed;
+  padding: 30px 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo{
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+header ul{
+  list-style: none;
+  display: flex;
+  gap: 70px;
+}
+
+header ul li a{
+  color: #b9b9b9;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  transition: 0.5s;
+}
+
+header ul li a:hover,
+header ul li a.active{
+
+  color:whitesmoke;
+}
+
+/* Hero section */
+
+section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 100px;
+  gap: 100px;
+}
+
+section .Content{
+  max-width: 700px;
+}
+
+section .Content h2{
+  font-size: 4.4em;
+  color: #fff;
+  font-weight: 700;
+}
+
+section .Content  h2 b{
+  color: #0f0;
+  font-weight: 800;
+} 
+
+section .Content   p{
+  color: #999;
+  font-weight: 500;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  padding-top: 30px;
+} 
+section .Content   .btn{
+  margin-top: 35px;
+  padding: 20px 15px;
+  font-size: 27px;
+  border-radius: 9px;
+  background: wheat;
+  color: black;
+  text-decoration: none ;
+  font-weight: 700;
+  display: inline-block;
+}
+
+section .Content   .btn a{
+  text-decoration: none;
+  color: black;
+}
+
+section .container{
+  position: relative;
+  right:100px;
+  min-width: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section .container .element{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: rgb(188,255,188);
+  scale:0.75;
+}
